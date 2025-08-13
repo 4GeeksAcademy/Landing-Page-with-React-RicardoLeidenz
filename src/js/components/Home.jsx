@@ -40,7 +40,7 @@ const Home = () => {
 			<Nav/>
 			<Jumbotron/>
 			<div className="row justify-content-center">
-				<div className="col-10 d-flex justify-content-center bg-body-secondary">
+				<div className="col-10 d-flex justify-content-center my-4">
 					{engines.map(
 						(engine) =>{
 							return(
